@@ -13,6 +13,12 @@ New features:
 - New pattern ``mockup-patterns-structureupdater`` to update title and description depending on the current context on Plone's folder contents page.
   [thet]
 
+- make thumb size in folder contents listing adjustable/supressable 
+  replace meaningless paper clip icon (fontello) with mime type icons
+  from mimetype registry
+  https://github.com/plone/Products.CMFPlone/issues/1734
+  [fgrcon]
+  
 - Add default plone color less variables for a more consistent design.
   They will be overwritten by values set by Plone or integration projects.
   [thet]
@@ -116,6 +122,7 @@ New:
 - Change default sort option in livesearch pattern.
   [rodfersou]
 
+  
 - Show expired label in folder contents for expired attributes
   [vangheem]
 
